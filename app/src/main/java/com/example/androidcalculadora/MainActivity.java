@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         int num;
         if (String.valueOf(etNum1.getText()).equals("") || String.valueOf(etNum2.getText()).equals("")){
             Toast.makeText(this, getString(R.string.vazio), Toast.LENGTH_LONG).show();
-            Log.i("Operacao", "passou");
         } else {
             int x = Integer.parseInt(String.valueOf(etNum1.getText()));
             int y = Integer.parseInt(String.valueOf(etNum2.getText()));
@@ -60,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 default:
                     tvResultado.setText("");
                     Toast.makeText(this, getString(R.string.operacao), Toast.LENGTH_LONG).show();
-                    Log.i("Operacao", "passou");
                     break;
 
             }
