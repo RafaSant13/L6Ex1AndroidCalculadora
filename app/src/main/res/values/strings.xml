@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidCalculadora</string>
+    <string name="btnCalc">Calcular</string>
+    <string name="resultado">O resultado é: </string>
+    <string name="operacao">Operação inválida!</string>
+    <string name="vazio">Campos Vazios!</string>
+</resources>
